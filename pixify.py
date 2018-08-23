@@ -15,12 +15,12 @@ def zero(x):
 	return x
 
 path = sys.argv[1]
-patch_divisor = int(sys.argv[2])
+split_size = int(sys.argv[2])
 
 input_img = cv2.imread(path)
 
-x_size = len(input_img) // patch_divisor
-y_size = len(input_img[0]) // patch_divisor
+x_size = len(input_img) // split_size
+y_size = len(input_img[0]) // split_size
 
 print("divide by = ", int(sys.argv[2]))
 print("width, height = ", len(input_img), ", ", len(input_img[0]))

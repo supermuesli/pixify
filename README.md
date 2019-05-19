@@ -1,11 +1,12 @@
 # pixify
-required modules:
+
+## required modules:
 - cv2
 - numpy
 
-use like this:
+## use like this:
 
-$python3 pixify.py input.jpg split_size
+  $python3 pixify.py input.jpg split_size
 
 ![alt text](https://raw.githubusercontent.com/supermuesli/resources/master/woman.jpg)
 
